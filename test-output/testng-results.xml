@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Original URL is :- https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Original URL is :- https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Original URL is :- https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Original title shown in  :- Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[After user login the URL is :- https://www.saucedemo.com/inventory.html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-16T09:42:56 IST" name="Default suite" finished-at="2024-10-16T09:43:07 IST" duration-ms="11516">
+    <groups>
+      <group name="Sanity">
+        <method signature="_1_LoginPageTestCase.verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" name="verifyURLTest" class="TestCases._1_LoginPageTestCase"/>
+        <method signature="_1_LoginPageTestCase.verfiyTitleTest()[pri:1, instance:TestCases._1_LoginPageTestCase@4c012563]" name="verfiyTitleTest" class="TestCases._1_LoginPageTestCase"/>
+        <method signature="_1_LoginPageTestCase.verifyUserLoginTest()[pri:2, instance:TestCases._1_LoginPageTestCase@4c012563]" name="verifyUserLoginTest" class="TestCases._1_LoginPageTestCase"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="_1_LoginPageTestCase.verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" name="verifyURLTest" class="TestCases._1_LoginPageTestCase"/>
+        <method signature="_1_LoginPageTestCase.verfiyTitleTest()[pri:1, instance:TestCases._1_LoginPageTestCase@4c012563]" name="verfiyTitleTest" class="TestCases._1_LoginPageTestCase"/>
+        <method signature="_1_LoginPageTestCase.verifyUserLoginTest()[pri:2, instance:TestCases._1_LoginPageTestCase@4c012563]" name="verifyUserLoginTest" class="TestCases._1_LoginPageTestCase"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-10-16T09:42:56 IST" name="Default test" finished-at="2024-10-16T09:43:07 IST" duration-ms="11516">
+      <class name="TestCases._1_LoginPageTestCase">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:42:56 IST" name="init" finished-at="2024-10-16T09:42:58 IST" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:42:58 IST" name="verifyURLTest" finished-at="2024-10-16T09:42:59 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Original URL is :- https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:42:59 IST" name="closeBrowser" finished-at="2024-10-16T09:42:59 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLTest status=SUCCESS method=_1_LoginPageTestCase.verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563] output=Original URL is :- https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:42:59 IST" name="init" finished-at="2024-10-16T09:43:01 IST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:01 IST" name="verifyURLTest" finished-at="2024-10-16T09:43:01 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Original URL is :- https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:01 IST" name="closeBrowser" finished-at="2024-10-16T09:43:01 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLTest status=SUCCESS method=_1_LoginPageTestCase.verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563] output=Original URL is :- https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:01 IST" name="init" finished-at="2024-10-16T09:43:03 IST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:03 IST" name="verifyURLTest" finished-at="2024-10-16T09:43:03 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Original URL is :- https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:03 IST" name="closeBrowser" finished-at="2024-10-16T09:43:03 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLTest status=SUCCESS method=_1_LoginPageTestCase.verifyURLTest()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563] output=Original URL is :- https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:03 IST" name="init" finished-at="2024-10-16T09:43:05 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verfiyTitleTest()[pri:1, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:05 IST" name="verfiyTitleTest" finished-at="2024-10-16T09:43:05 IST" depends-on-methods="TestCases._1_LoginPageTestCase.verifyURLTest" duration-ms="52" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Original title shown in  :- Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verfiyTitleTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:05 IST" name="closeBrowser" finished-at="2024-10-16T09:43:05 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verfiyTitleTest status=SUCCESS method=_1_LoginPageTestCase.verfiyTitleTest()[pri:1, instance:TestCases._1_LoginPageTestCase@4c012563] output=Original title shown in  :- Swag Labs]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:05 IST" name="init" finished-at="2024-10-16T09:43:06 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyUserLoginTest()[pri:2, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:06 IST" name="verifyUserLoginTest" finished-at="2024-10-16T09:43:07 IST" depends-on-methods="TestCases._1_LoginPageTestCase.verifyURLTest" duration-ms="387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After user login the URL is :- https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases._1_LoginPageTestCase@4c012563]" started-at="2024-10-16T09:43:07 IST" name="closeBrowser" finished-at="2024-10-16T09:43:07 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginTest status=SUCCESS method=_1_LoginPageTestCase.verifyUserLoginTest()[pri:2, instance:TestCases._1_LoginPageTestCase@4c012563] output=After user login the URL is :- https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases._1_LoginPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+  <!-- Here run the Group Test Case  -->
+  <groups>
+  	<run>
+  		<include name="Sanity"></include>
+  		<exclude name="Regression"></exclude>
+  		<exclude name="Smoke"></exclude>
+  	</run>
+  </groups>
+  
+    <classes>
+      <class name="TestCases._6_CheckoutCompletePageTest"/>
+      <class name="TestCases._2_InventoryPageTestCase"/>
+      <class name="TestCases._3_CartPageTestCase"/>
+      <class name="TestCases._1_LoginPageTestCase"/>
+      <class name="TestCases._4_CheckoutPageTestCase"/>
+      <class name="TestCases._5_CheckoutPageOverviewPageTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

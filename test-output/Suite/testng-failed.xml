@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <exclude name="Regression"/>
+        <exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases._2_InventoryPageTestCase">
+        <methods>
+          <include name="verfiyApplicationLogo"/>
+          <include name="verifyCartIconTest"/>
+          <include name="varifyAddSixProductIntoCartTest"/>
+          <include name="verifyCopyRightsTextTest"/>
+          <include name="verifyFacbookSocialIconTest"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLinkedInSocialIconTest"/>
+          <include name="verifyTwitterSocialIconTest"/>
+          <include name="intit"/>
+        </methods>
+      </class> <!-- TestCases._2_InventoryPageTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
