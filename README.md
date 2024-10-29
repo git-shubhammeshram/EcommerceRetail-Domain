@@ -1,7 +1,3 @@
-This project is a comprehensive automated testing suite for an e-commerce web application. 
-Built using Selenium with Java, it follows a data-driven framework and leverages TestNG for test management. 
-The project also integrates Extent Reports for detailed test results and loggers for real-time insights, ensuring efficient and robust testing.
-
 Key Features
 Selenium Automation: Automates key user flows like login, product search, add-to-cart, and checkout.
 Data-Driven Testing: Parameterizes test data using external sources (e.g., Excel) to ensure wide test coverage across multiple scenarios.
